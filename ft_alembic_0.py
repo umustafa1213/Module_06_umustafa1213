@@ -4,8 +4,7 @@ import elements
 def main() -> None:
     print("=== Alembic 0 ===")
     print("Using: 'import ...' structure to access elements.py")
-    print("Testing create_fire:", elements.create_fire())
-    print()
+    print(f"Testing create_fire: {elements.create_fire()}\n")
 
 
 if __name__ == "__main__":
